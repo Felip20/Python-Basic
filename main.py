@@ -25,10 +25,19 @@
 # else :
 #     print('old');
 
-tired = input('are you ok? "y/n"');
-if tired == 'n':
-    print('rest well');
-elif tired == 'y':
-    print('go to work');
-else :
-    print('please enter y/n');
+# tired = input('are you ok? "y/n"');
+# if tired == 'n':
+#     print('rest well');
+# elif tired == 'y':
+#     print('go to work');
+# else :
+#     print('please enter y/n');
+
+names = ['a', 'b','c','d'];
+for name in names :
+   if name == 'c':
+      print(f'{name} is teacher');
+   else :
+      print(f'{name} is student');
+
+
