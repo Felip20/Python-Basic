@@ -33,11 +33,16 @@
 # else :
 #     print('please enter y/n');
 
-names = ['a', 'b','c','d'];
-for name in names :
-   if name == 'c':
-      print(f'{name} is teacher');
-   else :
-      print(f'{name} is student');
+# names = ['a', 'b','c','d'];
+# for name in names :
+#    if name == 'c':
+#       print(f'{name} is teacher');
+#    else :
+#       print(f'{name} is student');
 
+num = 0;
+while num<10:
+    if num % 2 ==0:
+          print(num);
+    num+=1;
 
