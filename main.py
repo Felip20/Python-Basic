@@ -8,7 +8,10 @@
 
 # print(area);2
 
-age = 20;
+# age = 20;
 
-print(f'my age is {age}');
+# print(f'my age is {age}');
 
+# print(5>1 and 5>2);
+
+# print(5>1 or 5>10);
