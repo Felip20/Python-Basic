@@ -3,7 +3,7 @@
 # for num in range(0,20,4):
 #     print(num);
 
-pizzas = ['chicken', 'pork', 'beef', 'seafood'];
+# pizzas = ['chicken', 'pork', 'beef', 'seafood'];
 
-for num in range(len(pizzas)):
-    print(pizzas[num]);
+# for num in range(len(pizzas)):
+#     print(pizzas[num]);
