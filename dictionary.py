@@ -1,8 +1,8 @@
-person = {
-    'name': 'wathone',
-    'age': 21
-}
-person['goat']='messi'
+# person = {
+#     'name': 'wathone',
+#     'age': 21
+# }
+# person['goat']='messi'
 # print(person);
 
 # if 'goat' in person:
@@ -10,10 +10,10 @@ person['goat']='messi'
 # else:
 #     print('idk');
 
-pskey=list(person.keys())
+# pskey=list(person.keys())
 
-print(pskey);
+# print(pskey);
 
-psvalue=list(person.values())
+# psvalue=list(person.values())
 
-print(psvalue);
+# print(psvalue);
