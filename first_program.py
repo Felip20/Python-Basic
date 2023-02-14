@@ -6,11 +6,16 @@ while True :
     person[name]=age;
 
     another = input('another y/n :');
-
-    if another == 'y':
+    if another =='y':
         continue;
-    else :
+    else:
         break;
 
-for (keys , values) in person.items():
-    print(f'{keys} is {values} years old');
+ages = list(person.values());
+
+for age in set(ages):
+    count = ages.count(age);
+    print(f'{age} is years old - {count}');
+
+# for (key , value) in person.items():
+#     print(f'{key} is {value} years old');
