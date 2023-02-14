@@ -40,9 +40,9 @@
 #    else :
 #       print(f'{name} is student');
 
-num = 0;
-while num<10:
-    if num % 2 ==0:
-          print(num);
-    num+=1;
+# num = 0;
+# while num<10:
+#     if num % 2 ==0:
+#           print(num);
+#     num+=1;
 
