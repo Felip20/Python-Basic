@@ -1,0 +1,12 @@
+class Car:
+    def __init__(self,name,wheels):
+        self.name = name
+        self.wheels = wheels
+
+    def drive(self):
+        print(f'{self.name} is driving.')
+lambo=Car("toyota",4);
+lambo.drive();
+
+marcedes=Car("honda",4);
+marcedes.drive();
