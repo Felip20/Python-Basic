@@ -4,7 +4,6 @@ class RestaurantTable:
         'cola' :200,
         'burger' : 1000
     }
-
     def __init__(self):
         self.total=0
         self.orders=[]
