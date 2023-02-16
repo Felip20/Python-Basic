@@ -5,6 +5,7 @@ def greet(fun):
         fun(name)
         print("goodbye");
     return wrapper
+
 @greet
 def name(name):
     print(name);
